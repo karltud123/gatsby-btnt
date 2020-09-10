@@ -7,7 +7,7 @@ const Highlight = () => (
   <Container className="py-16 px-8">
     <div className="w-full lg:w-5/6 mx-auto text-white flex flex-wrap">
       <div className="w-full md:w-1/2 md:pr-2 my-8 text-center md:text-left">
-        <h2 className="text-4xl md:text-5xl font-serif">
+        <h2 className="text-4xl md:text-5xl font-serif leading-11">
           You also get:
             <span className="block font-sans">
             Full access to The Business Times website and Android app
@@ -30,13 +30,13 @@ const Highlight = () => (
           </span>
         <div className="w-1/2">
           <span className="block text-center text-sm font-bold">
-            Samsung Galaxy Tab A(Wi-Fi)
+            Samsung Galaxy S6 Lite (LTE)
           </span>
           <IpadA />
         </div>
         <div className="w-1/2">
           <span className="block text-center text-sm font-bold">
-            Samsung Galaxy S6 Lite (LTE)
+            Samsung Galaxy Tab A Wi-Fi
           </span>
           <IpadB />
         </div>

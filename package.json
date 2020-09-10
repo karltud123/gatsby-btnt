@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "btnt-gatsby-site",
   "private": true,
   "description": "BTNT Gatsby site",
   "version": "0.1.0",
@@ -42,9 +42,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/karltud123/gatsby-btnt"
   }
 }

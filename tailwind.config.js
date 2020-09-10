@@ -7,6 +7,13 @@ module.exports = {
   },
   theme: {
     extend: {
+      fontFamily: {
+        "opensans": ["Open Sans", "sans-serif"]
+      },
+      lineHeight: {
+        'extra-loose': '2.5',
+        '11': '60px',
+      },
       colors: {
         btgray: {
           100: "#2d2d2d",

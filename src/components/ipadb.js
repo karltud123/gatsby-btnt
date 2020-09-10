@@ -5,9 +5,9 @@ import Img from "gatsby-image"
 const IpadB = () => {
   const data = useStaticQuery(graphql`
     query IPAD_B_QUERY {
-      ipad: file(relativePath: { eq: "ipad-b.png" }) {
+      ipad: file(relativePath: { eq: "BTNT-tablet-lite-hr.png" }) {
         childImageSharp {
-          fluid {
+          fluid (quality: 100){
             ...GatsbyImageSharpFluid_withWebp
           }
         }

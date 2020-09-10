@@ -68,8 +68,8 @@ const Intro = () => {
               <p className="text-xl md:text-2xl font-bold mt-16 mb-16 text-center md:text-left">
                 $39.90/month for 30 months
               </p>
-              <button className="bg-blue-400 rounded-full py-3 px-16 block md:inline-block font-bold text-base md:text-lg mx-auto md:mx-0">
-                Buy Now
+              <button className="bg-btblue-100 rounded-full py-3 px-16 block md:inline-block font-bold text-base md:text-lg mx-auto md:mx-0">
+                BUY NOW
               </button>
             </div>
           </Container>

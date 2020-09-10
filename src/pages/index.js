@@ -2,7 +2,7 @@ import React from "react"
 
 import "../styles.css"
 
-// import SEO from "../components/seo"
+import SEO from "../components/seo"
 import Header from "./../components/header"
 import Intro from "./../components/intro"
 import VideoContent from "./../components/videoContent"
@@ -13,8 +13,8 @@ import Footer from "../components/footer"
 import Rights from "../components/rights"
 
 const IndexPage = () => (
-  <div>
-    {/* <SEO title="Home" /> */}
+  <div className="font-opensans">
+    <SEO title="Home" />
     <Header />
     <Intro />
     <VideoContent />

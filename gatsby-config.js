@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/specials/4`,
+  pathPrefix: `/specials/bt-news-tablet-edition-v10`,
   siteMetadata: {
     title: `The Business Times`,
     description: `The Business Times. News Tablet Edition. Read print the new way.`,
@@ -19,13 +19,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `btnt-gatsby-site`,
+        short_name: `btnt`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffffff`,
+        theme_color: `#333333`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
