@@ -14,16 +14,16 @@ import Rights from "../components/rights"
 
 const IndexPage = () => (
   <div className="font-opensans">
-    <SEO title="Home" />
+    <SEO title="BT News Tablet Edition" />
     <Header />
     <Intro />
     <VideoContent />
-    <Container className="sm:px-8">
+    <Container className="sm:px-8 hidden">
       <div className="w-full lg:w-3/4 xl:w-2/3 mx-auto mt-16">
         <Story />
       </div>
     </Container>
-    <div className="bg-btgray-100">
+    <div className="bg-btgray-100 mt-8">
       <Highlight />
     </div>
     <div className="bg-btgray-100 mt-4">
