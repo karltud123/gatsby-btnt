@@ -1,9 +1,7 @@
 module.exports = {
-  purge: {
-    mode: "layers",
-    layers: ["base", "components", "utilities"],
-    enabled: true,
-    content: ["./src/**/*.html", "./src/**/*.js"],
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
   },
   theme: {
     extend: {

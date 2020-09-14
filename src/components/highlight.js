@@ -18,7 +18,8 @@ const Highlight = () => (
         </p>
         <p className="text-sm md:text-lg mb-8">Read print the new way.</p>
         <a
-          href="/"
+          href="https://www.sphsubscription.com.sg/eshop/?r=promotion/2020btnewstabletpromo"
+          target="_blank"
           className="rounded-full text-base md:text-lg my-8 inline-block bg-btblue-100 hover:bg-gray-200 hover:text-btblue-100 font-bold py-4 px-8"
         >
           FIND OUT MORE

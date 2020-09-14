@@ -68,9 +68,13 @@ const Intro = () => {
               <p className="text-xl md:text-2xl font-bold mt-16 mb-16 text-center md:text-left">
                 $39.90/month for 30 months
               </p>
-              <button className="bg-btblue-100 hover:bg-gray-200 hover:text-btblue-100 rounded-full py-3 px-16 block md:inline-block font-bold text-base md:text-lg mx-auto md:mx-0">
+              <a
+                href="https://www.sphsubscription.com.sg/eshop/?r=promotion/2020btnewstabletpromo"
+                target="_blank"
+                className="bg-btblue-100 hover:bg-gray-200 hover:text-btblue-100 rounded-full py-3 px-16 block md:inline-block font-bold text-base md:text-lg mx-auto md:mx-0"
+              >
                 BUY NOW
-              </button>
+              </a>
             </div>
           </Container>
         </div>

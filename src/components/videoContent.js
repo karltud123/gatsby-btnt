@@ -1,8 +1,7 @@
 import React from "react"
 import Container from "./../components/container"
-import PlayIcon from "./../images/play.svg"
-import BackgroundImage from "gatsby-background-image"
 import { useStaticQuery, graphql } from "gatsby"
+import YouTube from "./YouTube"
 
 const VideoContent = () => {
   const { ipad } = useStaticQuery(graphql`
@@ -25,20 +24,7 @@ const VideoContent = () => {
           <b>Zoom and share, on the go</b>, via the exclusive SPHtab e-paper app
           that's only available pre-installed on the BT News Tablet.
         </p>
-        <a href="https://youtu.be/dryF1hpGK4A" target="blank">
-          <BackgroundImage
-            fluid={ipad.childImageSharp.fluid}
-            className="w-full h-btvideo bg-btgray-100 my-8 relative bg-right"
-          >
-            <div className="absolute top-0 left-0 right-0 bottom-0">
-              <div className="flex justify-center items-center h-full">
-                <div className="h-20 w-20 bg-white rounded-full">
-                  <PlayIcon className="text-black" />
-                </div>
-              </div>
-            </div>
-          </BackgroundImage>
-        </a>
+        <YouTube className="mt-10" />
       </div>
     </Container>
   )
