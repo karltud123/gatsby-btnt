@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/specials/bt-news-tablet-edition-v16`,
+  pathPrefix: `/specials/bt-news-tablet-edition-v17`,
   siteMetadata: {
     title: `News Tablet Edition | The Business Times`,
     description: `The Business Times. News Tablet Edition. Read print the new way.`,

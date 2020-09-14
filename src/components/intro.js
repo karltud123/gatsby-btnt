@@ -45,7 +45,7 @@ const Intro = () => {
       <BackgroundImage fluid={imageStack} className="bg-right">
         <div className="md:bg-gradient-to-r md:from-btgray-100 md:to-transparent">
           <Container className="py-16 px-4">
-            <div className="w-full lg:w-5/6 mx-auto">
+            <div className="w-full lg:w-5/6 mx-auto text-center md:text-left">
               <Logo className="w-btlogomobile md:w-btlogodesktop mx-auto md:mx-0" />
               <h2 className="text-lg md:text-3xl text-center md:text-left text-btgray-200">
                 NEWS TABLET EDITION
@@ -71,7 +71,7 @@ const Intro = () => {
               <a
                 href="https://www.sphsubscription.com.sg/eshop/?r=promotion/2020btnewstabletpromo"
                 target="_blank"
-                className="bg-btblue-100 hover:bg-gray-200 hover:text-btblue-100 rounded-full py-3 px-16 block md:inline-block font-bold text-base md:text-lg mx-auto md:mx-0"
+                className="bg-btblue-100 hover:bg-gray-200 hover:text-btblue-100 rounded-full py-3 px-16 inline-block font-bold text-base md:text-lg mx-auto md:mx-0"
               >
                 BUY NOW
               </a>
