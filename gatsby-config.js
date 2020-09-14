@@ -1,11 +1,17 @@
 module.exports = {
-  pathPrefix: `/specials/bt-news-tablet-edition-v14`,
+  pathPrefix: `/specials/bt-news-tablet-edition-v16`,
   siteMetadata: {
     title: `News Tablet Edition | The Business Times`,
     description: `The Business Times. News Tablet Edition. Read print the new way.`,
     author: `@kmlinantud`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-21603044-1",
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -44,13 +50,6 @@ module.exports = {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         tailwind: true,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-21603044-1",
-        anonymize: false,
       },
     },
   ],
