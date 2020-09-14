@@ -59,7 +59,7 @@ const Intro = () => {
                   Android tablet
                 </li>
                 <li>- Individual access to the BT website and app</li>
-                <li>- Access to 14-day e-paper archive</li>
+                <li>- Access to 2-week e-paper archive</li>
                 <li>
                   - Offline reading, news clipping and social media-sharing
                   functions
