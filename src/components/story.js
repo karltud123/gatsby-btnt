@@ -16,10 +16,12 @@ const Story = () => {
   `)
   return (
     <div className="my-8 flex bg-white flex-col md:flex-row">
-      <Image
-        fluid={defaultimage.childImageSharp.fluid}
-        className="w-full md:w-1/3 object-cover"
-      />
+      <a href="#" target="_blank" className="block w-full md:w-1/3">
+        <Image
+          fluid={defaultimage.childImageSharp.fluid}
+          className="w-full object-cover"
+        />
+      </a>
       <div className="px-4 py-2 w-full md:w-2/3 text-center sm:text-left">
         <h2 className="text-2xl md:text-3xl mb-2">
           BT News Tablet Edition launches

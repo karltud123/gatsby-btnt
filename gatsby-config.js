@@ -35,15 +35,22 @@ module.exports = {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /images/ // See below to configure properly
-        }
-      }
+          include: /images/, // See below to configure properly
+        },
+      },
     },
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         tailwind: false,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-21603044-1",
+        anonymize: false,
       },
     },
   ],

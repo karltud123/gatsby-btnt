@@ -8,11 +8,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "opensans": ["Open Sans", "sans-serif"]
+        opensans: ["Open Sans", "sans-serif"],
       },
       lineHeight: {
-        'extra-loose': '2.5',
-        '11': '60px',
+        "extra-loose": "2.5",
+        11: "60px",
       },
       colors: {
         btgray: {
@@ -24,11 +24,12 @@ module.exports = {
         },
         btblue: {
           100: "#007bad",
+          200: "#00425c ",
           lifestyle: "#66C0CA",
         },
       },
       height: theme => ({
-        btvideo: "520px",
+        btvideo: "450px",
       }),
       width: theme => ({
         btlogomobile: "187px",
