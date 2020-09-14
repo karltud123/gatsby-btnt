@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/specials/bt-news-tablet-edition-v11`,
+  pathPrefix: `/specials/bt-news-tablet-edition-v14`,
   siteMetadata: {
     title: `News Tablet Edition | The Business Times`,
     description: `The Business Times. News Tablet Edition. Read print the new way.`,
@@ -43,7 +43,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-purgecss`,
       options: {
-        tailwind: false,
+        tailwind: true,
       },
     },
     {
