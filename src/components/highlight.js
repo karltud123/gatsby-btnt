@@ -31,7 +31,7 @@ const Highlight = () => (
         </span>
         <div className="w-1/2">
           <span className="block text-center text-sm font-bold">
-            Samsung Galaxy S6 Lite (LTE)
+            Samsung Galaxy Tab S6 Lite (LTE)
           </span>
           <a
             href="https://www.sphsubscription.com.sg/eshop/?r=promotion/2020btnewstabletpromo"

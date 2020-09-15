@@ -15,7 +15,7 @@ const Intro = () => {
           }
         }
       }
-      mobileImage: file(relativePath: { eq: "bg-3.jpg" }) {
+      mobileImage: file(relativePath: { eq: "default-image.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1024) {
             ...GatsbyImageSharpFluid
