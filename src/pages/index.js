@@ -18,7 +18,7 @@ const IndexPage = () => (
     <Header />
     <Intro />
     <VideoContent />
-    <Container className="sm:px-8 hidden">
+    <Container className="sm:px-8">
       <div className="w-full lg:w-3/4 xl:w-2/3 mx-auto mt-16">
         <Story />
       </div>

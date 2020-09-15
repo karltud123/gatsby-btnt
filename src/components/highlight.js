@@ -33,13 +33,25 @@ const Highlight = () => (
           <span className="block text-center text-sm font-bold">
             Samsung Galaxy S6 Lite (LTE)
           </span>
-          <IpadA />
+          <a
+            href="https://www.sphsubscription.com.sg/eshop/?r=promotion/2020btnewstabletpromo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IpadA />
+          </a>
         </div>
         <div className="w-1/2">
           <span className="block text-center text-sm font-bold">
             Samsung Galaxy Tab A Wi-Fi
           </span>
-          <IpadB />
+          <a
+            href="https://www.sphsubscription.com.sg/eshop/?r=promotion/2020btnewstabletpromo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IpadB />
+          </a>
         </div>
       </div>
     </div>
