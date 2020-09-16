@@ -24,7 +24,7 @@ const VideoContent = () => {
           <b>Zoom and share, on the go</b>, via the exclusive SPHtab e-paper app
           that's only available pre-installed on the BT News Tablet.
         </p>
-        <YouTube className="mt-10" />
+        {/* <YouTube className="mt-10" /> */}
       </div>
     </Container>
   )
