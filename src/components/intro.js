@@ -5,7 +5,7 @@ import BackgroundImage from "gatsby-background-image"
 import Image from "gatsby-image"
 import { graphql, useStaticQuery } from "gatsby"
 
-const Intro = () => {
+const Intro = props => {
   const { desktopImage, mobileImage, btntMobile } = useStaticQuery(graphql`
     query IntroImage {
       desktopImage: file(relativePath: { eq: "desktop-bg-1.png" }) {
@@ -32,17 +32,13 @@ const Intro = () => {
     }
   `)
 
-  const imageStack = [
-    mobileImage.childImageSharp.fluid,
-    {
-      ...desktopImage.childImageSharp.fluid,
-      media: `(min-width: 768px)`,
-    },
-  ]
+  const bg = props.className.includes("desktop")
+    ? desktopImage.childImageSharp.fluid
+    : mobileImage.childImageSharp.fluid
 
   return (
-    <div className=" text-white relative">
-      <BackgroundImage fluid={imageStack} className="bg-right">
+    <div className={" text-white relative " + props.className}>
+      <BackgroundImage fluid={bg} className="bg-right">
         <div className="md:bg-gradient-to-r md:from-btgray-100 md:to-transparent">
           <Container className="py-16 px-4">
             <div className="w-full lg:w-5/6 mx-auto text-center md:text-left">

@@ -16,7 +16,8 @@ const IndexPage = () => (
   <div className="font-opensans">
     <SEO title="BT News Tablet Edition" />
     <Header />
-    <Intro />
+    <Intro className="desktop hidden md:block" />
+    <Intro className="mobile block md:hidden" />
     <VideoContent />
     <Container className="sm:px-8">
       <div className="w-full lg:w-3/4 xl:w-2/3 mx-auto mt-16">
