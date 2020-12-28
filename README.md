@@ -17,6 +17,9 @@ Then run,
 
 `npm install`
 
+install gatsby cli
+`npm install -g gatsby-cli`
+
 The to run it in your local, run
 
 `gatsby develop`
