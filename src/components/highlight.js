@@ -18,7 +18,7 @@ const Highlight = () => (
         </p>
         <p className="text-sm md:text-lg mb-8">Read print the new way.</p>
         <a
-          href="https://www.sphsubscription.com.sg/eshop/?r=promotion/2020btnewstabletpromo&lang=en&utm_campaign=btnt&utm_medium=sph-publication&utm_source=bt&utm_content=subscribebutton-btmicrosite-default"
+          href="https://subscribe.sph.com.sg/promotions/the-business-times-news-tablet-promotion/?utm_campaign=btnt&utm_medium=sph-publication&utm_source=bt&utm_content=subscribebutton-btmicrosite-default"
           target="_blank"
           className="rounded-full text-base md:text-lg my-8 inline-block bg-btblue-100 hover:bg-gray-200 hover:text-btblue-100 font-bold py-4 px-8"
         >
@@ -34,7 +34,7 @@ const Highlight = () => (
             Samsung Galaxy Tab S6 Lite (LTE)
           </span>
           <a
-            href="https://www.sphsubscription.com.sg/eshop/?r=promotion/2020btnewstabletpromo&lang=en&preselect=lte-model&utm_campaign=btnt&utm_medium=sph-publication&utm_source=bt&utm_content=subscribebutton-btmicrosite-s6lite"
+            href="https://subscribe.sph.com.sg/promotions/the-business-times-news-tablet-promotion/?utm_campaign=btnt&utm_medium=sph-publication&utm_source=bt&utm_content=subscribebutton-btmicrosite-s6lite"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -46,7 +46,7 @@ const Highlight = () => (
             Samsung Galaxy Tab A Wi-Fi
           </span>
           <a
-            href="https://www.sphsubscription.com.sg/eshop/?r=promotion/2020btnewstabletpromo&lang=en&preselect=wifi-model&utm_campaign=btnt&utm_medium=sph-publication&utm_source=bt&utm_content=subscribebutton-btmicrosite-taba"
+            href="https://subscribe.sph.com.sg/promotions/the-business-times-news-tablet-promotion/?utm_campaign=btnt&utm_medium=sph-publication&utm_source=bt&utm_content=subscribebutton-btmicrosite-taba"
             target="_blank"
             rel="noopener noreferrer"
           >

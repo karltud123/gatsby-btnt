@@ -65,7 +65,7 @@ const Intro = props => {
                 $39.90/month for 30 months
               </p>
               <a
-                href="https://www.sphsubscription.com.sg/eshop/?r=promotion/2020btnewstabletpromo&lang=en&utm_campaign=btnt&utm_medium=sph-publication&utm_source=bt&utm_content=subscribebutton-btmicrosite-default"
+                href="https://subscribe.sph.com.sg/promotions/the-business-times-news-tablet-promotion/?utm_campaign=btnt&utm_medium=sph-publication&utm_source=bt&utm_content=subscribebutton-btmicrosite-default"
                 target="_blank"
                 className="bg-btblue-100 hover:bg-gray-200 hover:text-btblue-100 rounded-full py-3 px-16 inline-block font-bold text-base md:text-lg mx-auto md:mx-0"
               >
